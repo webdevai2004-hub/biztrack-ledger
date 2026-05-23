@@ -16,6 +16,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Decode keystore
+        run: base64 -d debug.keystore.base64 > debug.keystore
+
       - name: Install Gradle and generate wrapper
         run: |
           sudo apt-get update -q
