@@ -1,0 +1,6 @@
+{
+  "name": "হিসাব রক্ষক",
+  "description": "Daily business transaction tracker and monthly profit/loss reporter setup for Bengali users.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
