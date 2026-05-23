@@ -20,7 +20,7 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y gradle
-          gradle wrapper
+          gradle wrapper --gradle-version 8.7
 
       - name: Grant execute permission
         run: chmod +x gradlew
